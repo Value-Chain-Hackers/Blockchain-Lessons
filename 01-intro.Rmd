@@ -1,8 +1,49 @@
 # Introduction {#intro}
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+---
+title: "Introduction to the DAO Canvas"
+author: "Christiaan Verhoef & Bernhard van der Disen"
+date: "`r Sys.Date()`"
+output: bookdown::html_document2
+---
 
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+# Introduction to the DAO Canvas {#intro}
+
+This document introduces the DAO Canvas, a strategic framework designed for planning and managing decentralized autonomous organizations (DAOs). The canvas covers five key elements: Purpose, Community, Mechanics, Incentives, and Tools.
+
+## Purpose
+```{r purpose, echo=FALSE}
+cat("
+- **Mission**: Define the core mission of the DAO. Consider what primary objectives and immediate goals the DAO aims to achieve. Ask yourself: What problem is the DAO trying to solve? Who benefits from the DAO's success?
+
+  Example: The mission of our DAO, 'Decentralize Art,' is to empower artists globally by creating a decentralized platform that facilitates peer-to-peer sales without intermediaries, ensuring artists receive fair compensation for their work.
+
+- **Vision**: Outline the long-term vision and impact. Think about where you see the DAO in the future once it has successfully implemented its strategies and achieved its initial goals. How does the DAO contribute to broader societal, technological, or economic changes?
+
+  Example: The vision of 'Decentralize Art' is to redefine the global art market, making it universally accessible and significantly more equitable. Our aim is to see a world where artistic creation and appreciation are seamlessly integrated into daily life, enabled by blockchain technology, enhancing cultural diversity and inclusivity.
+")
+
+
+cat("
+- **Roles**: Describe the roles within the DAO and responsibilities.
+- **Interaction**: Detail how members will interact.
+")
+
+cat("
+- **Roles**: Describe the roles within the DAO and responsibilities.
+- **Interaction**: Detail how members will interact.
+")
+
+cat("
+- **Roles**: Describe the roles within the DAO and responsibilities.
+- **Interaction**: Detail how members will interact.
+")
+
+cat("
+- **Infrastructure**: List the technologies and platforms used.
+- **Adaptability**: Describe how these tools meet the DAO's needs.
+")
+
 
 ```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
 par(mar = c(4, 4, .1, .1))
